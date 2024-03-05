@@ -906,7 +906,7 @@
 				)
 			)
 			(property "Description" "BATTERY HOLDER COIN 20MM PC PIN"
-				(at 5.08 10.16 0)
+				(at 5.08 25.4 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -957,16 +957,6 @@
 			)
 			(property "DK_Detail_Page" "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447"
 				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "BATTERY HOLDER COIN 20MM PC PIN"
-				(at 5.08 25.4 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1183,7 +1173,7 @@
 				)
 			)
 			(property "Description" "SWITCH SLIDE SPDT 200MA 30V"
-				(at 5.08 10.16 0)
+				(at 5.08 25.4 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1234,16 +1224,6 @@
 			)
 			(property "DK_Detail_Page" "/product-detail/en/e-switch/EG1218/EG1903-ND/101726"
 				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "SWITCH SLIDE SPDT 200MA 30V"
-				(at 5.08 25.4 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2082,7 +2062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 95.25 134.62 0)
 			(effects
 				(font
@@ -2626,7 +2606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 194.31 101.6 0)
 			(effects
 				(font
@@ -2676,25 +2656,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50290ee6-ad19-40f7-a48f-1aa009dfaac0")
 		(property "Reference" "U1"
-			(at 135.89 109.382 0)
+			(at 114.046 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 135.89 111.2871 0)
+		(property "Value" "7555"
+			(at 131.064 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "555_Badge:ICM7555-PDIP"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -2991,7 +2970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 209.042 87.63 90)
 			(effects
 				(font
@@ -3061,7 +3040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 165.1 135.89 0)
 			(effects
 				(font
@@ -3328,7 +3307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 93.472 118.11 90)
 			(effects
 				(font
@@ -3398,7 +3377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 149.352 134.62 90)
 			(effects
 				(font
@@ -3468,7 +3447,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 210.82 101.6 0)
 			(effects
 				(font
@@ -3538,7 +3517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 192.532 87.63 90)
 			(effects
 				(font
@@ -3674,7 +3653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 93.472 95.25 90)
 			(effects
 				(font
@@ -3810,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "digikey-footprints:TO-92-3"
 			(at 196.85 125.095 0)
 			(effects
 				(font
@@ -3884,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 175.26 124.968 90)
 			(effects
 				(font
@@ -3928,7 +3907,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 123.19 90)
+		(at 144.78 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3952,8 +3931,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 124.968 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 144.78 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
